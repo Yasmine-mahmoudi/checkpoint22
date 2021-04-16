@@ -1,0 +1,113 @@
+/* CSS Selectors */
+* {
+    font-family: Arial, Verdana, sans-serif;
+  }
+  h1 {
+    font-family: "Courier New", monospace;
+    color: rgb(19, 16, 17);
+  }
+  h2 {
+    font-family: "Courier New", monospace;
+    color: #6386e4
+  }
+  a{
+    font-family: "Courier New", monospace;
+    color: rgb(63, 5, 63)
+  }
+  #about{
+    background-color: rgb(216, 208, 212);
+    background-repeat: no-repeat;
+  }
+  #work{
+     background-color: rgb(216, 208, 212);
+     background-repeat: no-repeat;
+   }
+   #contact{
+    background-color: rgb(216, 208, 212);
+    background-repeat: no-repeat;
+  }
+  #footer{
+    background-color: #6b78f0;
+    background-repeat: no-repeat;
+  }
+  #resume{
+    background-color: rgb(216, 208, 212);
+    background-repeat: no-repeat;
+  }
+
+  .flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   }
+
+
+   ul {
+    list-style-type:none;
+    }
+   li {
+    float:left; /*pour IE*/
+    border-left:10px solid rgb(197, 195, 195);
+    border-right:10px solid rgb(197, 195, 195);
+    }
+    ul li a {
+    float:left;   
+    width:215px;
+    line-height:10px; /*hauteur de l'image de fond*/
+    background:rgb(197, 195, 195);
+    text-decoration:none;
+    text-align:center;
+    } 
+   
+    label {
+      padding-right: 10px;
+      font-size: 1rem;
+    }
+    .bntDownload{
+      font-size:16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:700;
+      background:#6386e4;
+      padding:16px 22px;
+      display:inline-block;
+    }
+    .bntDownload:hover{
+      background:#495e94;
+      color:#3378b1;
+      text-decoration:none;
+    }
+    .img-circle {
+      border-radius: 50%;
+    }
+    .flotte {
+      float:right;
+      }
+    .submitBnt{
+        background:#495e94;
+        font-family: 'Open Sans', sans-serif;
+        color:#6bb4f0;
+        font-size:26px;
+        font-weight:400;
+        text-align:center;
+        float:right;
+        margin:40px;
+      }
+
+    .info {
+          width: 50%;
+          min-height: 50px;
+          padding-right: 15px;
+          padding-left: 15px;
+          float: right;
+        }
+
+    .msg
+         {
+          width: 100%;
+          min-height: 250px;
+          padding-right: 15px;
+          padding-left: 15px;
+        } 
+    .w3-light-grey{background-color:#bdb4b4!important}
+    .w3-container{padding:10px 16px}
+    .w3-blue{color:#495e94!important;background-color:#6bb4f0!important}
