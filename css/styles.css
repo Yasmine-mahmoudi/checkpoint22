@@ -34,23 +34,18 @@
     background-color: rgb(216, 208, 212);
     background-repeat: no-repeat;
   }
-
-  .flex{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-   }
-
-
-   ul {
+  li p{
+        font-weight: bold;
+    }
+   nav ul {
     list-style-type:none;
     }
-   li {
+   nav ul li {
     float:left; /*pour IE*/
     border-left:10px solid rgb(197, 195, 195);
     border-right:10px solid rgb(197, 195, 195);
     }
-    ul li a {
+    nav ul li a {
     float:left;   
     width:215px;
     line-height:10px; /*hauteur de l'image de fond*/
