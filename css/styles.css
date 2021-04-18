@@ -34,8 +34,9 @@
     background-color: rgb(216, 208, 212);
     background-repeat: no-repeat;
   }
-  li p{
+  li{
         font-weight: bold;
+        line-height: 35px;
     }
    nav ul {
     list-style-type:none;
